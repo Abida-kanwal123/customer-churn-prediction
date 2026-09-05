@@ -141,7 +141,7 @@ The Random Forest was configured with `class_weight="balanced"` to account for t
 
 # Accuracy Is Not the Whole Story
 
-![Model Performance](images/model_comparison.png)
+
 
 The model results reveal an important business trade-off.
 
