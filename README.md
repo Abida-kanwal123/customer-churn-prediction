@@ -42,7 +42,7 @@ Because churn is the minority class, evaluating the model using accuracy alone w
 
 ## 1. Churn Is Concentrated in Specific Markets
 
-![Customer Churn Rate by Geography](images/churn_by_geography.png)
+![Churn by Geography](images/churn_by_geography.png)
 
 Germany recorded an observed churn rate of **32.44%**, compared with **16.15% in France** and **16.67% in Spain**.
 
@@ -58,7 +58,7 @@ This analysis identifies a geographic **signal**, not a causal explanation.
 
 ## 2. Customer Activity Shows a Strong Churn Gap
 
-![Customer Churn Rate by Active Membership](images/churn_by_activity.png)
+![Churn by Active Membership](images/churn_by_activity.png)
 
 Inactive customers had an observed churn rate of approximately **26.85%**, compared with **14.27% among active customers**.
 
@@ -74,7 +74,7 @@ The finding shows an association in this dataset; it does not establish that ina
 
 ## 3. Gender Shows a Noticeable Difference in Observed Churn
 
-![Customer Churn Rate by Gender](images/churn_by_gender.png)
+![Churn by Gender](images/churn_by_gender.png)
 
 Female customers represented **45.4% of the overall customer base**, but accounted for **55.9% of churned customers**. Male customers represented **54.6% of the customer base** and accounted for **44.1% of churned customers**.
 
@@ -90,7 +90,7 @@ However, gender should **not** be used as a standalone targeting rule. The more 
 
 ## 4. Product Count Reveals an Unusual Churn Pattern
 
-![Customer Churn Rate by Number of Products](images/churn_by_products.png)
+![Churn by Number of Products](images/churn_by_numofproducts.png)
 
 Observed churn varies sharply across product-count groups:
 
@@ -175,7 +175,6 @@ The appropriate threshold should ultimately be selected using validation data an
 # What Did the Model Learn?
 
 ![Random Forest Feature Importance](images/feature_importance.png)
-
 The Random Forest's impurity-based feature importance ranked:
 
 1. **Age**
